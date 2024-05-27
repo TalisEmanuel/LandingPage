@@ -1,0 +1,111 @@
+.img_logo_mobile{
+    display: none;
+}
+.logo_txt_mobile{
+    display: none;
+    
+}
+
+@media screen and (max-width: 1340px){
+    .imgdescricao{
+        display: none;
+    }
+
+    .logo_txt{
+        display: none;
+    }
+    .title{
+        margin-left: 1%;
+        
+        width: 60%;
+        color:#fff;
+    }
+    .title h2{
+        font-size: 20px;
+    }
+    .img_logo_mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .logo_txt_mobile{
+        display:block;
+        margin-left: 5%;
+        width: 90%;
+        
+        
+    }
+    .imgdescricao_mobile{
+
+        width: 55%;
+        display: block;
+        margin:5%;
+        margin-left: 20%;
+    }
+    .forminscricao{
+        width: 90%;
+        margin:3%;
+    }
+    #user,#tel,#email,#input-btn{
+        width: 80%;
+        font-size: 30px;
+    }
+    .calendario{
+        display: flex;
+        font-size: 15px;
+        justify-content:right;
+        align-items: right;
+        text-align: right;
+        width: 30%;
+        margin-left: 65%;
+        
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+#user,#tel,#email,#input-btn{
+    width: 65%;
+    font-size: 30px;
+
+}
+
+.title h2{
+    font-size: 16px;
+}
+#input-btn{
+    font-size: 25px;}
+}
+@media screen and (max-width: 200px){
+    .calendario{
+        display: none;
+    }
+    .calendario_mobile{
+        display: block;
+        color: #fff;
+        width: 50%;
+        margin:0.7%;
+        padding: 5px 5px;
+        border: 3px outset #0042FF;
+        border-radius: 10px;
+        margin-top: 0%;
+        margin-left: 5%;
+        
+
+    }
+    #user,#tel,#email,#input-btn{
+        font-size: 13px;
+       
+    }
+    .logo{
+        margin: 1%;
+    }
+    
+    .imgdescricao_mobile{
+        margin: 0;
+        
+    }
+}
+
+
